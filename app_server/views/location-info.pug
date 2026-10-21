@@ -43,7 +43,7 @@ block content
               h2.card-title Location map
 
               img.img-fluid.rounded(
-                src=`https://maps.googleapis.com/maps/api/staticmap?center=${location.coords.lat},${location.coords.lng}&zoom=17&size=400x350&sensor=false&markers=${location.coords.lat},${location.coords.lng}&scale=2&key=${process.env.GOOGLE_API_KEY}
+                src=`https://maps.googleapis.com/maps/api/staticmap?center=${location.coords.lat},${location.coords.lng}&zoom=17&size=400x350&sensor=false&markers=${location.coords.lat},${location.coords.lng}&scale=2&key=${process.env.GOOGLE_API_KEY}`
               )
 
       .row
